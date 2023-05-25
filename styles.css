@@ -83,3 +83,34 @@ main {
 .profile-description h2{
 color: #5d6d00;
 }
+section {
+    margin-top: 30px;
+}
+section h2 {
+    color: #5d6d00;
+    font-size: 2rem;
+}
+section p {
+    font-size: 1.4rem;
+}
+section span {
+    font-size: 1.4rem;
+}
+.lista_complementaria {
+    display: grid;
+    grid-template-columns: 100px 400px;
+    font-size: 1.4rem;
+    
+}
+.lista_complementaria--green  li{
+    color: #5d6d00;
+    list-style: none;
+}
+.lista_complementaria--black {
+    color: black;
+    list-style: none;
+}
+.skills ul {
+    list-style: none;
+    font-size: 1.4rem;
+}
